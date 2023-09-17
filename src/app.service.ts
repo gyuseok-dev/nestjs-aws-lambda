@@ -3,7 +3,7 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getTest(): string {
-    return 'Get Test';
+    return 'Get Test With CI/CD';
   }
 
   postTest(): string {
